@@ -8,7 +8,8 @@ import LoadingBar from 'react-top-loading-bar'
 
 const App = ()=> {
   const pageSize = 5;
-  const apiKey = process.env.REACT_APP_NEWS_API
+  // const apiKey = process.env.REACT_APP_NEWS_API
+  const apiKey = '63f6eccc8e304b438cd498dae2850bd8';
   const [progress, setProgress] = useState(0)
  
     return (
@@ -33,7 +34,6 @@ const App = ()=> {
         </Router>
       </div>
     )
- 
 }
 
 export default App;
